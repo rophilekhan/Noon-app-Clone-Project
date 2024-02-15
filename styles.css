@@ -1,0 +1,185 @@
+@font-face {
+    font-family: poppins;
+    src: url(./assets/Poppins-Medium.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+body{
+    font-family: poppins;
+    overflow: hidden;
+    overflow: scroll; /* Show scrollbars */
+}
+
+
+.searchbar{
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 0.6rem 1rem;
+
+}
+
+.searchbar input[type="search"] {
+    background: transparent;
+    width: 50vw;
+    margin-left: 1rem;
+    font-size: 0.9rem;
+    color: black;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.viewbtn{
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;   
+}
+
+.viewbtn:hover{
+    transform: scale(1.0);
+    border: 2px solid red;
+}
+
+.webpage-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    /* background-color: white; */
+}
+
+.endlogo{
+    display: flex;
+    
+}
+.endlogo:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+/* flex classes start */
+.d-flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.justify-evenly{
+    justify-content: space-evenly;
+}
+.justify-end{
+    justify-content: flex-end;
+}
+.align-center{
+    align-items: center;
+}
+.align-between{
+    align-items: space-between;
+}
+.align-around{
+    align-items: space-around;
+}
+.align-evenly{
+    align-items: space-evenly;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-row{
+    flex-direction: row;
+}
+/* flex classes end */
+/* margin classes start */
+.m-1{
+    margin: 5px;
+}
+.m-2{
+    margin: 10px;
+}
+.m-3{
+    margin: 15px;
+}
+.m-4{
+    margin: 20px;
+}
+.mt-1{
+    margin-top: 5px;
+}
+.mt-2{
+    margin-top: 10px;
+}
+.mt-3{
+    margin-top: 15px;
+}
+.mt-4{
+    margin-top: 20px;
+}
+.mt-5{
+    margin-top: 50px;
+}
+.mt-6{
+    margin-top: 300px;
+}
+.mb-1{
+    margin-bottom: 50px;
+}
+.mb-2{
+    margin-bottom: 100px;
+}
+.ml-1{
+    margin-left: 10px;
+}
+.ml-2{
+    margin-left: 20px;
+}
+
+.ml-3{
+    margin-left: 30px;
+}
+.mr-1{
+    margin-right: 10px;
+}
+
+.mr-2{
+    margin-right: 20px;
+}
+/* margin classes end */
+
+.center{
+    text-align: center;
+}
+
+.responsive-img{
+    width: 100%;
+    height: auto;
+}
+
+.wide {
+    height: 191px;
+}
+
+.deal-div{
+    height: auto ;
+    width:100% ;
+}
